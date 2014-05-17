@@ -16,12 +16,18 @@ Example test scenario:
 1. Create a VM (eg. virtualbox one)
 2. Copy one of the source files to the VM
 3. Compile the code
-   g++ onelinerforkmbomb.cpp -o onelinerforkbomb
-   sudo cp onelinerforkbomb /usr/local/sbin
+
+g++ onelinerforkmbomb.cpp -o onelinerforkbomb
+sudo cp onelinerforkbomb /usr/local/sbin
+
 4. Add the fork bomb execution to system startup script
-   vim /etc/rc.local
-   put the following code (before exit 0 statement):
-   /usr/local/sbin/onelinerforkbomb
+
+vim /etc/rc.local
+
+put the following code (before exit 0 statement):
+
+/usr/local/sbin/onelinerforkbomb
+
 5. Reboot the OS
 
 REMEMBER!
