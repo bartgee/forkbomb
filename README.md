@@ -26,7 +26,7 @@ Example test scenario:
 
 REMEMBER!
 
-   Don't do it on production systems or you laptop/box!!!
+   Don't do it on production systems or on you laptop/box!!!
 
 best regards,
 
